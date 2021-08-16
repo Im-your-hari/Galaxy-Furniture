@@ -27,9 +27,19 @@ body{
     text-align : center ;
 }
 .content h1{
-    font-size : 80px ;
+    font-size : 70px ;
     color : #c8d8e4 ;
     font-family : serif ;
+}
+
+.content p{
+    font-size : 25px ;
+    color : #ddd ;
+}
+
+.content .btn{
+    border-color:#c8d8e4 ;
+    color : #c8d8e4 ;
 }
 
 .clr-prim{
