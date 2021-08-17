@@ -7,6 +7,9 @@
 
 body{
     font-family : verdana ;
+    display : grid ;
+    place-items : center ;
+    color : #fff ;
 }
 
 .banner-area{
@@ -43,4 +46,8 @@ body{
 
 .clr-prim{
     background : #2b6777;
+}
+
+.change-text-area{
+    text-align : center ;
 }
