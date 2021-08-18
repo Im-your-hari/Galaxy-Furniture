@@ -50,9 +50,11 @@ body{
 
 .change-text-area{
     text-align : center ;
+    
 }
 #change-text{
-    content : "" ;
+    content: "" ;
+ 
 }
 
 .map-responsive{
@@ -67,4 +69,11 @@ body{
     height:100%;
     width:100%;
     position:absolute;
+}
+
+.wave{
+    position : absolute ;
+    display: overlay ;
+    bottom : 0 ;
+    left: 0 ;
 }
