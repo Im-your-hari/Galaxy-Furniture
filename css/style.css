@@ -72,8 +72,5 @@ body{
 }
 
 .wave{
-    position : absolute ;
-    display: overlay ;
-    bottom : 0 ;
-    left: 0 ;
+    background-color : #c8d8e4 ;
 }
