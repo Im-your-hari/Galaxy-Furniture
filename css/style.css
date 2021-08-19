@@ -30,7 +30,7 @@ body{
 }
 .content h1{
     font-size : 70px ;
-    color : #97a9b8 ;
+    color : #809cc0 ;
     font-family : serif ;
     text-shadow : 2px 2px 3px #2b6777 ;
 }
@@ -44,6 +44,13 @@ body{
     border-color:#c8d8e4 ;
     color : #c8d8e4 ;
 }
+.btn:hover {
+    background-color: #809cc0;
+    border-color: #c8d8e4;
+    color: #fff;
+}
+
+
 
 .clr-prim{
     background : #2b6777;
