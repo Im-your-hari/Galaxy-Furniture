@@ -30,7 +30,7 @@ body{
 }
 .content h1{
     font-size : 70px ;
-    color : #809cc0 ;
+    color : #97a9b8 ;
     font-family : serif ;
     text-shadow : 2px 2px 3px #2b6777 ;
 }
@@ -45,7 +45,7 @@ body{
     color : #c8d8e4 ;
 }
 .btn:hover {
-    background-color: #809cc0;
+    background-color: #97a9b8;
     border-color: #c8d8e4;
     color: #fff;
 }
@@ -82,3 +82,47 @@ body{
 .wave{
     background-color : #c8d8e4 ;
 }
+
+.photo-gallery {
+    color:#313437;
+    background-color:#fff;
+  }
+  
+  .photo-gallery p {
+    color:#7d8285;
+  }
+  
+  .photo-gallery h2 {
+    font-weight:bold;
+    margin-bottom:40px;
+    padding-top:40px;
+    color:inherit;
+  }
+  
+  @media (max-width:767px) {
+    .photo-gallery h2 {
+      margin-bottom:25px;
+      padding-top:25px;
+      font-size:24px;
+    }
+  }
+  
+  .photo-gallery .intro {
+    font-size:16px;
+    max-width:500px;
+    margin:0 auto 40px;
+  }
+  
+  .photo-gallery .intro p {
+    margin-bottom:0;
+  }
+  
+  .photo-gallery .photos {
+    padding-bottom:20px;
+  }
+  
+  .photo-gallery .item {
+    padding-bottom:30px;
+  }
+  
+  
