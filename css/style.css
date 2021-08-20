@@ -84,7 +84,7 @@ body{
 }
 
 .photo-gallery {
-    color:#313437;
+    color:#97a9b8;
     background-color:#fff;
   }
   
@@ -94,9 +94,10 @@ body{
   
   .photo-gallery h2 {
     font-weight:bold;
+    color: #97a9b8;
     margin-bottom:40px;
     padding-top:40px;
-    color:inherit;
+    
   }
   
   @media (max-width:767px) {

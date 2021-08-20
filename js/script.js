@@ -1,3 +1,4 @@
+//Content Changing Animation
 var contents = [
      "Second content",
       "Third content",
