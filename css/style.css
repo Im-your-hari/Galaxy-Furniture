@@ -120,10 +120,15 @@ body{
   
   .photo-gallery .photos {
     padding-bottom:20px;
-  }
+}
   
   .photo-gallery .item {
     padding-bottom:30px;
   }
+
+.img-shadow{
+    box-shadow: 2px 3px 3px #000;
+    
+}
   
   
