@@ -53,7 +53,8 @@ body{
 
 
 .clr-prim{
-    background : #2b6777;
+    background: linear-gradient(#606b7d,#2b6777);
+    
 }
 
 .change-text-area{
@@ -139,4 +140,12 @@ body{
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+}
+
+.marq{
+    font-size: large;
+    color: #fff;
+    letter-spacing: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
 }
