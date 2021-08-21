@@ -130,5 +130,13 @@ body{
     box-shadow: 2px 3px 3px #000;
     
 }
-  
-  
+.ic{
+    
+}
+.ic:hover{
+    border-radius: 45%;
+    -webkit-border-radius: 45%;
+    -moz-border-radius: 45%;
+    -ms-border-radius: 45%;
+    -o-border-radius: 45%;
+}
