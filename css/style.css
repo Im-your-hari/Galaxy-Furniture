@@ -134,9 +134,9 @@ body{
     
 }
 .ic:hover{
-    border-radius: 45%;
-    -webkit-border-radius: 45%;
-    -moz-border-radius: 45%;
-    -ms-border-radius: 45%;
-    -o-border-radius: 45%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
