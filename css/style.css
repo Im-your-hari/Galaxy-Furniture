@@ -84,6 +84,15 @@ body{
     background-color : #c8d8e4 ;
 }
 
+.gallery img{
+    transition: all .3s ease-in-out;
+    
+}
+
+.gallery img:hover{
+    transform: scale(1.1);
+}
+
 .photo-gallery {
     color:#97a9b8;
     background-color:#fff;
@@ -154,7 +163,7 @@ body{
 .whatsapp {
     position: fixed;
     right: 0px;
-    top: 52%;
+    top: 90%;
     padding-right: 1rem;
 }
 .whatsapp h5 {
