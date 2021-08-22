@@ -150,3 +150,16 @@ body{
     font-style: bold;
     text-shadow: 3px 3px 3px #2b6777;
 }
+
+.whatsapp {
+    position: fixed;
+    right: 0px;
+    top: 52%;
+    padding-right: 1rem;
+}
+.whatsapp h5 {
+    color: white;
+    background: #20b20f;
+    padding: 12px;
+    border-radius: 10px;
+}
