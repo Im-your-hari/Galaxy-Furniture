@@ -101,65 +101,87 @@
             </div>
             <div class="row photos">
                 <div class="gallery col-sm-6 col-md-4 col-lg-3 item p-3">
-                    <a href="/images/back3.jpg" data-lightbox="photos">
-                        <img class="img-fluid img-shadow" src="/images/back3.jpg">
-                    </a>
+                        <img class="img-fluid img-shadow" src="/images/sofa1.jpg" onclick="openModal();currentSlide(1)">
+                    
                 </div>
                 <div class="gallery col-sm-6 col-md-4 col-lg-3 item p-3">
-                    <a href="/images/back2.jpg" data-lightbox="photos">
-                        <img class="img-fluid img-shadow" src="/images/back2.jpg">
-                    </a>
+                  <img class="img-fluid img-shadow" src="/images/back3.jpg" onclick="openModal();currentSlide(2)">
                 </div>
                 <div class="gallery col-sm-6 col-md-4 col-lg-3 item p-3">
-                    <a href="/images/back3.jpg" data-lightbox="photos">
-                        <img class="img-fluid img-shadow" src="/images/back3.jpg">
-                    </a>
+                  <img class="img-fluid img-shadow" src="/images/back2.jpg" onclick="openModal();currentSlide(3)">
                 </div>
                 <div class="gallery col-sm-6 col-md-4 col-lg-3 item p-3">
-                    <a href="/images/back4.jpg" data-lightbox="photos">
-                        <img class="img-fluid img-shadow" src="/images/back4.jpg">
-                    </a>
+                  <img class="img-fluid img-shadow" src="/images/back4.jpg" onclick="openModal();currentSlide(4)">
                 </div>
                 <div class="gallery col-sm-6 col-md-4 col-lg-3 item p-3">
-                    <a href="/images/back4.jpg" data-lightbox="photos">
-                        <img class="img-fluid img-shadow" src="/images/back4.jpg">
-                    </a>
+                  <img class="img-fluid img-shadow" src="/images/back3.jpg" onclick="openModal();currentSlide(5)">
                 </div>
                 <div class="gallery col-sm-6 col-md-4 col-lg-3 item p-3">
-                    <a href="/images/back4.jpg" data-lightbox="photos">
-                        <img class="img-fluid img-shadow" src="/images/back4.jpg">
-                    </a>
+                  <img class="img-fluid img-shadow" src="/images/back2.jpg" onclick="openModal();currentSlide(6)">
                 </div>
                 <div class="gallery col-sm-6 col-md-4 col-lg-3 item p-3">
-                    <a href="/images/back2.jpg" data-lightbox="photos">
-                        <img class="img-fluid img-shadow" src="/images/back2.jpg">
-                    </a>
+                  <img class="img-fluid img-shadow" src="/images/back4.jpg" onclick="openModal();currentSlide(7)">
                 </div>
                 <div class="gallery col-sm-6 col-md-4 col-lg-3 item p-3">
-                    <a href="/images/back2.jpg" data-lightbox="photos">
-                        <img class="img-fluid img-shadow" src="/images/back2.jpg">
-                    </a>
+                  <img class="img-fluid img-shadow" src="/images/back3.jpg" onclick="openModal();currentSlide(8)">
                 </div>
-                <div class="gallery col-sm-6 col-md-4 col-lg-3 item p-3">
-                    <a href="/images/back3.jpg" data-lightbox="photos">
-                        <img class="img-fluid img-shadow" src="/images/back3.jpg">
-                    </a>
+                
+               
+            </div>
+
+            <div id="myModal" class="modal">
+              <span class="close cursor" onclick="closeModal()">&times;</span>
+              <div class="modal-content">
+
+         <!-- modal images are list here    -->
+
+                <div class="mySlides">
+                  <div class="numbertext">1 / 8</div>
+                  <img src="images/sofa1.jpg" style="width:100%">
                 </div>
-                <div class="gallery col-sm-6 col-md-4 col-lg-3 item p-3">
-                    <a href="/images/back4.jpg" data-lightbox="photos">
-                        <img class="img-fluid img-shadow" src="/images/back4.jpg">
-                    </a>
+            
+                <div class="mySlides">
+                  <div class="numbertext">2 / 8</div>
+                  <img src="images/back3.jpg" style="width:100%">
                 </div>
-                <div class="gallery col-sm-6 col-md-4 col-lg-3 item p-3">
-                    <a href="/images/back4.jpg" data-lightbox="photos">
-                        <img class="img-fluid img-shadow" src="/images/back4.jpg">
-                    </a>
+            
+                <div class="mySlides">
+                  <div class="numbertext">3 / 8</div>
+                  <img src="images/back2.jpg" style="width:100%">
                 </div>
-                <div class="gallery col-sm-6 col-md-4 col-lg-3 item p-3">
-                    <a href="/images/back4.jpg" data-lightbox="photos">
-                        <img class="img-fluid img-shadow" src="/images/back4.jpg">
-                    </a>
+                
+                <div class="mySlides">
+                  <div class="numbertext">4 / 8</div>
+                  <img src="images/back4.jpg" style="width:100%">
                 </div>
+
+                <div class="mySlides">
+                  <div class="numbertext">5 / 8</div>
+                  <img src="images/back3.jpg" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                  <div class="numbertext">6 / 8</div>
+                  <img src="images/back2.jpg" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                  <div class="numbertext">7 / 8</div>
+                  <img src="images/back4.jpg" style="width:100%">
+                </div>
+                
+                <div class="mySlides">
+                  <div class="numbertext">8 / 8</div>
+                  <img src="images/back3.jpg" style="width:100%">
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+                
+            
+            
+                
             </div>
         </div>
         <!--Gallery-->
