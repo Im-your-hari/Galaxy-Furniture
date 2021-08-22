@@ -163,21 +163,23 @@ body{
 
 /* style for floating whatsapp icon */
 
-.whatsapp {
-    position: fixed;
-    right: 1%;
-    top: 90%;
-    padding-right: 1rem;
-}
-.whatsapp h5 {
-    color: white;
-    background: #20b20f;
-    padding: 10px;
-    border-radius: 12px;
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px rgb(0, 0, 0);
+  z-index:100;
 }
 
-.whatsapp h5:hover {
-  background:#067751;
+.my-float{
+	margin-top:16px;
 }
 
 /*---- style for gallery ---- */
