@@ -53,7 +53,7 @@ body{
 
 
 .clr-prim{
-    background: linear-gradient(#606b7d,#2b6777);
+  background-image: linear-gradient(to bottom, #356a6f, #386670, #3d6270, #425e6e, #475a6b, #465a6b, #465a6c, #455a6c, #3d5e70, #346271, #2a6571, #21696f);
     
 }
 
@@ -134,6 +134,12 @@ body{
   
   .photo-gallery .item {
     padding-bottom:30px;
+  }
+
+  .contact-section {
+    padding: 50px;
+    text-align: center;
+    color: white;
   }
 
 .img-shadow{
