@@ -1,8 +1,8 @@
 //Content Changing Animation
 var contents = [
-     "Second content",
+     "കേരളത്തിലുടനീളം കേരളത്തിന്റെ സ്വന്തം Galaxy Furniture Factory കേരളത്തിലുടനീളം കേരളത്തിന്റെ സ്വന്തം Galaxy Furniture Factory കേരളത്തിലുടനീളം കേരളത്തിന്റെ സ്വന്തം Galaxy Furniture Factory ",
       "Third content",
-      "First content" ,
+      "17000 രൂപ മുതൽ എല്ലാത്തരം ഫർണിച്ചറുകളുടെയും വിശാലമായ കളക്ഷൻസ് 17000 രൂപ മുതൽ എല്ലാത്തരം ഫർണിച്ചറുകളുടെയും വിശാലമായ കളക്ഷൻസ് 17000 രൂപ മുതൽ എല്ലാത്തരം ഫർണിച്ചറുകളുടെയും വിശാലമായ കളക്ഷൻസ്" ,
 ]
 function timer(ms){
     return new Promise(resolve =>{
