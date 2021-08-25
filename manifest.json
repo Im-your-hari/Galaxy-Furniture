@@ -2,18 +2,13 @@
     "name" : "GALAXY FURNITURE FACTORY",
     "short_name" : "GALAXY FURNITURE",
     "start_url" : ".",
-    "theme_cololr" : "#2b6777",
+    "theme_color" : "#2b6777",
     "display" : "fullscreen",
     "icons" : [
         {
-           "src" : "images/logo_icon.png",
-           "sizes" : "64x64",
+           "src" : "icons/logo_icon.png",
+           "sizes" : "50x50",
            "type" : "image/png"
-        },
-        {
-            "src" : "images/logo_icon.png",
-            "sizes" : "512x512",
-            "type" : "image/png"
         }
     ]
 }
