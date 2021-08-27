@@ -30,14 +30,14 @@ body {
 }
 
 .content h1 {
-  font-size: 70px;
+  font-size: 11vh;
   color: #97a9b8;
   font-family: serif;
   text-shadow: 2px 2px 3px #2b6777;
 }
 
 .content p {
-  font-size: 25px;
+  font-size: 4vh;
   color: #ddd;
 }
 
