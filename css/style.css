@@ -321,3 +321,31 @@ body {
   width: 100%;
   position: absolute;
 }
+
+
+.cazoom{
+  transition: all .3s;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s;
+  -o-transition: all .3s;
+  text-decoration: none;
+}
+
+.cazoom:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  border-radius: 30%;
+  -webkit-border-radius: 30%;
+  -moz-border-radius: 30%;
+  -ms-border-radius: 30%;
+  -o-border-radius: 30%;
+  text-decoration: none;
+}
+
+.carda{
+  text-decoration: none;
+}
