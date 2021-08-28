@@ -154,11 +154,11 @@ body {
 }
 
 .ic:hover {
-  border-radius: 40%;
-  -webkit-border-radius: 40%;
-  -moz-border-radius: 40%;
-  -ms-border-radius: 40%;
-  -o-border-radius: 40%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
   background-color: #21696f;
 }
 
