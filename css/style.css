@@ -355,3 +355,11 @@ body {
 .carda{
   text-decoration: none;
 }
+
+@viewport{
+  width: device-width;
+  zoom: 1;
+  min-zoom: 0.5;
+  max-zoom: 3;
+  user-zoom: fixed;
+}
