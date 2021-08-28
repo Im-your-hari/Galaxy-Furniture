@@ -72,7 +72,8 @@ body {
 }
 
 .text{
-  color: #000;
+  color: #fff;
+  text-shadow: 2px 2px 3px #2a6571;
 }
 
 .gallery img {
@@ -339,6 +340,7 @@ body {
   -o-transition: all .3s;
   text-decoration: none;
   font-family: 'Times New Roman', Times, serif;
+  box-shadow : 3px 3px 5px #000 ;
 }
 
 .cazoom:hover {
