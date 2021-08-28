@@ -338,6 +338,7 @@ body {
   -ms-transition: all .3s;
   -o-transition: all .3s;
   text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .cazoom:hover {
