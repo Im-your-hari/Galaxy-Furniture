@@ -143,14 +143,22 @@ body {
   box-shadow: 2px 3px 3px #000;
 }
 
-.ic {}
-
-.ic:hover {
+.ic {
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+  border-color: #21696f;
+}
+
+.ic:hover {
+  border-radius: 40%;
+  -webkit-border-radius: 40%;
+  -moz-border-radius: 40%;
+  -ms-border-radius: 40%;
+  -o-border-radius: 40%;
+  background-color: #21696f;
 }
 
 .marq {
@@ -338,11 +346,6 @@ body {
   -moz-transform: scale(1.1);
   -ms-transform: scale(1.1);
   -o-transform: scale(1.1);
-  border-radius: 30%;
-  -webkit-border-radius: 30%;
-  -moz-border-radius: 30%;
-  -ms-border-radius: 30%;
-  -o-border-radius: 30%;
   text-decoration: none;
 }
 
