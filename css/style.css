@@ -16,6 +16,8 @@ body {
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/background.jpg");
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .content-area {
@@ -25,15 +27,22 @@ body {
   align-items: center;
 }
 
-.content {
-  text-align: center;
-}
 
-.content h1 {
-  font-size: 11vh;
+
+.content  {
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 11vw;
   color: #97a9b8;
   font-family: serif;
   text-shadow: 2px 2px 3px #2b6777;
+}
+.content h1 {
+mix-blend-mode: color-burn;
 }
 
 .content p {
