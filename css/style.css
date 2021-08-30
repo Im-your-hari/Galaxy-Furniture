@@ -41,10 +41,6 @@ body {
   font-family: serif;
   text-shadow: 2px 2px 3px #2b6777;
 }
-.content h1 {
-mix-blend-mode: color-burn;
-}
-
 .content p {
   font-size: 4vh;
   color: #ddd;
@@ -179,6 +175,16 @@ mix-blend-mode: color-burn;
   font-style: bold;
   text-shadow: 3px 3px 3px #97a9b8;
 }
+
+/* aboutcard */
+
+.aboutcard {
+
+text-align: center;
+
+}
+
+
 
 /*---- style for gallery ---- */
 
