@@ -399,7 +399,7 @@ body {
 }
 /* About Card */
 .aboutCard{
-  background-color: #2b6777;
+  background-image: linear-gradient(to bottom, #356a6f,#21696f);
   font-family: 'Times New Roman', Times, serif;
   box-shadow: 3px 3px 5px #000;
 
